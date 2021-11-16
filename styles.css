@@ -1,0 +1,53 @@
+.Wrapper {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Headbar {
+    align-content: center;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+.Headbar h1 {
+    width: 600px;
+    margin: 0 auto 0 auto;
+}
+
+.Feed {
+    align-content: center;
+    background-color: lightgray;
+    padding: 0 0 50px 0;
+    display: grid;
+}
+
+.Item {
+    background-color: white;
+    width: 600px;
+    margin: 50px auto 0 auto;
+}
+
+.Item .Header {
+    font-weight: bolder;
+    display: flex;
+}
+
+.Item .Header * {
+    margin: 15px;
+}
+
+.Item .Header .Date {
+    margin-left: auto;
+    color: gray;
+    font-weight: bold;
+}
+
+.Item .Image img {
+    object-fit: contain;
+    width: 600px;
+}
+
+.Item .Comment p{
+    margin: 15px 20px 15px 20px;
+}
